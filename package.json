@@ -1,0 +1,23 @@
+{
+  "name": "kand-weather-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "city_data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laytonmaes/kand-weather-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laytonmaes/kand-weather-api/issues"
+  },
+  "homepage": "https://github.com/laytonmaes/kand-weather-api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

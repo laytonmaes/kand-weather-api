@@ -1,5 +1,5 @@
-{
-    "state": [
+const cityData = {
+    states: [
         {
             "state": "Alabama",
             "cities": [
@@ -9082,3 +9082,5 @@
         }
     ]
 }
+
+module.exports = cityData
