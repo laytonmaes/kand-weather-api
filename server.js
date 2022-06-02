@@ -1,9 +1,7 @@
 const express = require("express")
 const app = express()
 
-const cityData = require("./city_data.js")
-
-app.locals.cityData = cityData
+app.locals.cityData = require("./city_data.js")
 
 app.set("port", process.env.Port || 3001)
 app.locals.title = "Kand Weather"
