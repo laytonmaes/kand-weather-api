@@ -13,5 +13,5 @@ app.get("/api/v1/cityData", (request, response) => {
 })
 
 app.listen(app.get("port"), () => {
-    console.log(`${app.locals.title} is running on http://localhost:${app.get("port")}.`);
+    console.log(`${app.locals.title} is running on http://localhost:${app.get("port")}/api/v1/cityData.`);
 })
