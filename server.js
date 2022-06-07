@@ -9,7 +9,7 @@ app.locals.cityData = require("./city_data.js")
 app.set("port", process.env.Port || 3001)
 app.locals.title = "Kand Weather"
 
-app.get("/api/v1/city-data", (request, response) => {
+app.get("/", (request, response) => {
     const data = app.locals.cityData
     
     response.json({ data })
