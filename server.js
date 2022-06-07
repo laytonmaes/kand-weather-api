@@ -6,7 +6,7 @@ app.use(cors())
 
 app.locals.cityData = require("./city_data.js")
 
-app.set("port", process.env.Port || 3001)
+const PORT = process.env.PORT || 3001;
 app.locals.title = "Kand Weather"
 
 app.get("/", (request, response) => {
@@ -15,6 +15,6 @@ app.get("/", (request, response) => {
     response.json({ data })
 })
 
-app.listen(app.get("port"), () => {
-    console.log(`${app.locals.title} is running on http://localhost:${app.get("port")}/api/v1/city-data.`);
-})
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
